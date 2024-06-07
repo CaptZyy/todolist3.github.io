@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>To-Do List</title>
+</head>
+<body>
+    <div class="list">
+        <!-- Header -->
+        <header>
+            <h1>TO DO LIST!</h1>
+        </header>
+
+        <!-- Profile -->
+        <main class="profile">
+            <img src="profile.png" alt="Profile Picture">
+            <p>Muhammad Daffa Azzahran</p>   
+        </main>
+        <hr>
+
+        <!-- Input list -->
+        <main class="inputlist">
+            <input type="text" id="task" placeholder="Add...">
+            <input type="date" name="date" id="date">
+            <button id="addButton">Add</button>
+        </main>
+        <br>
+
+        <!-- Task list -->
+        <main class="tasklist">
+            <ul id="taskList"></ul>
+        </main>
+    </div>
+    
+    <script src="home.js"></script>
+</body>
+</html>

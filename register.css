@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    margin-top: 10%;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper{
+    margin: 20px;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 15%; 
+
+}
+
+.wrapper a{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.register{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#username{
+    margin: 2%;
+    border-radius: 20px;
+    width: 220px;
+    height: 20px;
+    border: 1px solid #ccc;
+    background-color: #fef6e4;
+    border-radius: 5px;
+    padding: 12px;
+    
+}
+
+#password{
+    margin: 2%;
+    border: 1px solid #ccc;
+    width: 220px;
+    height: 20px;    
+    border-radius: 5px;
+    background-color: #fef6e4;
+    padding: 12px;
+
+    
+}
+
+#registerButton{    
+    border-radius: 20px;
+    width: 40%;
+    margin: 5%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    margin-right: 15px;
+    
+}
